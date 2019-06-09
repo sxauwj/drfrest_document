@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d32999b-ac77-46f5-9c16-beb105dad307" name="Default Changelist" comment="">
+    <list default="true" id="2d32999b-ac77-46f5-9c16-beb105dad307" name="Default Changelist" comment="part 4 set permissions of api ，use django's">
+      <change afterPath="$PROJECT_DIR$/snnipets/permissions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpart/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfpart/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfpart/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfpart/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snnipets/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/snnipets/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snnipets/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/snnipets/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snnipets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/snnipets/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,16 +67,6 @@
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="drf_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="drf_db: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="snnipets_snippet: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
     </expand>
     <select />
   </component>
@@ -80,96 +75,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/rest_framework/generics.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/snnipets/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="193" selection-start-line="193" selection-end-line="193" />
+            <state relative-caret-position="528">
+              <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
               <folding>
-                <element signature="e#0#61#1" />
-                <element signature="e#460#759#0" />
-                <element signature="e#460#600#1" />
-                <element signature="e#803#858#1" />
-                <element signature="e#863#908#0" />
-                <element signature="e#1288#1358#0" />
-                <element signature="e#2762#3754#0" />
-                <element signature="e#2762#3017#1" />
-                <element signature="e#3253#3433#0" />
-                <element signature="e#3811#4123#0" />
-                <element signature="e#3811#3961#1" />
-                <element signature="e#4169#4769#0" />
-                <element signature="e#4169#4494#1" />
-                <element signature="e#4559#4683#0" />
-                <element signature="e#4817#5018#0" />
-                <element signature="e#4817#4888#1" />
-                <element signature="e#4904#5018#0" />
-                <element signature="e#5069#5418#1" />
-                <element signature="e#5621#5940#0" />
-                <element signature="e#5621#5704#1" />
-                <element signature="e#5761#5909#0" />
-                <element signature="e#5993#6228#0" />
-                <element signature="e#5993#6086#1" />
-                <element signature="e#6282#6476#0" />
-                <element signature="e#6282#6375#1" />
-                <element signature="e#6479#6531#0" />
-                <element signature="e#6914#6967#1" />
-                <element signature="e#7158#7320#0" />
-                <element signature="e#7158#7220#1" />
-                <element signature="e#7274#7320#0" />
-                <element signature="e#7412#7574#0" />
-                <element signature="e#7412#7472#1" />
-                <element signature="e#7529#7574#0" />
-                <element signature="e#7663#7930#0" />
-                <element signature="e#7663#7723#1" />
-                <element signature="e#7777#7821#0" />
-                <element signature="e#7878#7930#0" />
-                <element signature="e#8074#8352#0" />
-                <element signature="e#8074#8156#1" />
-                <element signature="e#8210#8252#0" />
-                <element signature="e#8308#8352#0" />
-                <element signature="e#8512#8892#0" />
-                <element signature="e#8512#8584#1" />
-                <element signature="e#8638#8684#0" />
-                <element signature="e#8739#8783#0" />
-                <element signature="e#8840#8892#0" />
-                <element signature="e#9056#9333#0" />
-                <element signature="e#9056#9130#1" />
-                <element signature="e#9184#9230#0" />
-                <element signature="e#9288#9333#0" />
-                <element signature="e#9575#10070#0" />
-                <element signature="e#9575#9659#1" />
-                <element signature="e#9713#9759#0" />
-                <element signature="e#9814#9858#0" />
-                <element signature="e#9915#9967#0" />
-                <element signature="e#10025#10070#0" />
+                <element signature="e#24#63#0" expanded="true" />
+                <element signature="e#64#65#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/rest_framework/views.py">
+        <entry file="file://$PROJECT_DIR$/snnipets/permissions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="119" selection-start-line="119" selection-end-line="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/snnipets/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35">
-              <caret line="128" column="61" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="61" />
+            <state relative-caret-position="176">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
+        <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/rest_framework/permissions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="110">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -177,19 +109,73 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/snnipets/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+            <state relative-caret-position="198">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/rest_framework/mixins.py">
+        <entry file="file://$PROJECT_DIR$/snnipets/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="95" column="23" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="23" />
+            <state>
+              <caret column="17" lean-forward="true" selection-end-line="1" />
               <folding>
-                <element signature="e#178#217#0" expanded="true" />
+                <element signature="e#24#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/django/db/models/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-313">
+              <caret line="727" column="8" selection-start-line="727" selection-start-column="8" selection-end-line="727" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drfpart/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <folding>
+                <element signature="e#641#682#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/rest_framework/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drfpart/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="130" column="17" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/snnipets/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="32" column="53" lean-forward="true" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,7 +195,10 @@
       <find>DEFAULT_FILTER_BACKENDS</find>
       <find>No documentation found.</find>
       <find>filter_queryset</find>
+      <find>_lexer</find>
       <find>get_object</find>
+      <find>URLconf</find>
+      <find>snippets</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -218,24 +207,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/snnipets/models.py" />
         <option value="$PROJECT_DIR$/snipets/views.py" />
         <option value="$PROJECT_DIR$/snippets/views.py" />
         <option value="$PROJECT_DIR$/snippets/apps.py" />
         <option value="$PROJECT_DIR$/snnipets/apps.py" />
-        <option value="$PROJECT_DIR$/drfpart/settings.py" />
-        <option value="$PROJECT_DIR$/drfpart/urls.py" />
+        <option value="$PROJECT_DIR$/snnipets/models.py" />
         <option value="$PROJECT_DIR$/snnipets/serializers.py" />
         <option value="$PROJECT_DIR$/snnipets/urls.py" />
+        <option value="$PROJECT_DIR$/drfpart/urls.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/snnipets/permissions.py" />
         <option value="$PROJECT_DIR$/snnipets/views.py" />
+        <option value="$PROJECT_DIR$/drfpart/settings.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="359" />
-    <option name="y" value="134" />
-    <option name="width" value="1536" />
-    <option name="height" value="987" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="960" />
+    <option name="y" value="25" />
+    <option name="width" value="960" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -250,6 +241,11 @@
           <expand>
             <path>
               <item name="drfpart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drfpart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drfpart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drfpart" type="462c0819:PsiDirectoryNode" />
               <item name="drfpart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -321,7 +317,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559788384445</updated>
-      <workItem from="1559788386852" duration="26688000" />
+      <workItem from="1559788386852" duration="41695000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1559788843546</created>
@@ -372,23 +368,38 @@
       <option name="project" value="LOCAL" />
       <updated>1559813812519</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="part 3 Using generic class-based views">
+      <created>1560044779201</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560044779201</updated>
+    </task>
+    <task id="LOCAL-00009" summary="part 4 重写perform_create()方法">
+      <created>1560053785115</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560053785115</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26688000" />
+    <option name="totallyTimeSpent" value="41695000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="960" y="25" width="960" height="1055" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08484525" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15645514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" weight="0.32965687" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49910071" visible="true" weight="0.34628192" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" weight="0.32965687" />
+      <window_info anchor="bottom" id="Version Control" weight="0.5382908" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32963374" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49910071" visible="true" weight="0.34184238" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50089926" side_tool="true" weight="0.2254902" />
       <window_info anchor="bottom" id="Database Console" weight="0.32971016" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -399,7 +410,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" weight="0.026978416" />
+      <window_info anchor="right" id="Database" weight="0.24835886" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -432,6 +443,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first push" />
     <MESSAGE value="using ModelSerializer" />
@@ -439,25 +476,13 @@
     <MESSAGE value="part 2 function based views" />
     <MESSAGE value="part 3 class based views" />
     <MESSAGE value="part 3 Using mixins" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 3 Using mixins" />
+    <MESSAGE value="part 3 Using generic class-based views" />
+    <MESSAGE value="part 4 重写perform_create()方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 4 重写perform_create()方法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/snnipets/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bbf922c9-b3f3-4bc5-86b3-f94e736123fb/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/django/db/models/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/snnipets/apps.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -470,23 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="635">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drfpart/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drfpart/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="e#641#673#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,26 +511,6 @@
           <filtering>
             <filter text="" />
           </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snnipets/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snnipets/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,16 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/rest_framework/mixins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="95" column="23" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="23" />
-          <folding>
-            <element signature="e#178#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/rest_framework/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18">
@@ -567,10 +545,235 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/pygments/lexer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="678" column="27" selection-start-line="678" selection-start-column="27" selection-end-line="678" selection-end-column="27" />
+          <folding>
+            <element signature="e#24#210#1" />
+            <element signature="e#640#813#0" />
+            <element signature="e#832#1040#0" />
+            <element signature="e#1118#1441#0" />
+            <element signature="e#1118#1254#1" />
+            <element signature="e#1302#1441#0" />
+            <element signature="e#1495#7315#0" />
+            <element signature="e#1495#2469#1" />
+            <element signature="e#2836#3355#0" />
+            <element signature="e#3389#3632#0" />
+            <element signature="e#3418#3550#0" />
+            <element signature="e#3459#3549#0" />
+            <element signature="e#3688#3892#0" />
+            <element signature="e#3688#3750#1" />
+            <element signature="e#3930#4574#0" />
+            <element signature="e#3930#4574#2" />
+            <element signature="e#4634#6971#0" />
+            <element signature="e#4634#4957#1" />
+            <element signature="e#5014#6213#0" />
+            <element signature="e#5149#6049#0" />
+            <element signature="e#5245#5455#0" />
+            <element signature="e#5263#5454#0" />
+            <element signature="e#5597#5729#0" />
+            <element signature="e#5646#5729#0" />
+            <element signature="e#5833#6018#0" />
+            <element signature="e#6084#6213#0" />
+            <element signature="e#6240#6315#0" />
+            <element signature="e#6755#6831#0" />
+            <element signature="e#7025#7315#0" />
+            <element signature="e#7025#7281#1" />
+            <element signature="e#7352#8553#0" />
+            <element signature="e#7352#7646#1" />
+            <element signature="e#7736#7903#0" />
+            <element signature="e#7957#8553#0" />
+            <element signature="e#8104#8351#0" />
+            <element signature="e#8141#8288#0" />
+            <element signature="e#8176#8258#0" />
+            <element signature="e#8556#8636#0" />
+            <element signature="e#8733#8821#0" />
+            <element signature="e#8733#8812#1" />
+            <element signature="e#8852#8974#0" />
+            <element signature="e#8852#8925#1" />
+            <element signature="e#8958#8974#0" />
+            <element signature="e#9090#9314#0" />
+            <element signature="e#9090#9154#1" />
+            <element signature="e#9193#9224#0" />
+            <element signature="e#9265#9314#0" />
+            <element signature="e#9349#9855#0" />
+            <element signature="e#9349#9413#1" />
+            <element signature="e#9460#9505#0" />
+            <element signature="e#9546#9564#0" />
+            <element signature="e#9603#9639#0" />
+            <element signature="e#9680#9759#0" />
+            <element signature="e#9791#9811#0" />
+            <element signature="e#9846#9855#0" />
+            <element signature="e#9883#10727#0" />
+            <element signature="e#9883#9965#1" />
+            <element signature="e#10016#10707#0" />
+            <element signature="e#10062#10657#0" />
+            <element signature="e#10167#10276#0" />
+            <element signature="e#10311#10657#0" />
+            <element signature="e#10394#10657#0" />
+            <element signature="e#10610#10657#0" />
+            <element signature="e#10755#10849#0" />
+            <element signature="e#10755#10849#2" />
+            <element signature="e#10900#12554#0" />
+            <element signature="e#10900#11356#1" />
+            <element signature="e#11410#11568#0" />
+            <element signature="e#11601#12160#0" />
+            <element signature="e#11651#12160#0" />
+            <element signature="e#11651#11696#0" />
+            <element signature="e#11794#11911#0" />
+            <element signature="e#12179#12534#0" />
+            <element signature="e#12229#12534#0" />
+            <element signature="e#12576#12849#0" />
+            <element signature="e#12576#12791#1" />
+            <element signature="e#12831#12849#0" />
+            <element signature="e#12877#13267#0" />
+            <element signature="e#12877#13032#1" />
+            <element signature="e#13094#13170#0" />
+            <element signature="e#13199#13267#0" />
+            <element signature="e#13307#20219#0" />
+            <element signature="e#13307#13432#1" />
+            <element signature="e#13493#13682#0" />
+            <element signature="e#13728#13947#0" />
+            <element signature="e#14025#15452#0" />
+            <element signature="e#14144#14545#0" />
+            <element signature="e#14604#15070#0" />
+            <element signature="e#14802#14995#0" />
+            <element signature="e#15126#15373#0" />
+            <element signature="e#15206#15344#0" />
+            <element signature="e#15522#17352#0" />
+            <element signature="e#15880#17330#0" />
+            <element signature="e#15926#16185#0" />
+            <element signature="e#16245#16456#0" />
+            <element signature="e#16245#16303#0" />
+            <element signature="e#16515#16681#0" />
+            <element signature="e#16886#17011#0" />
+            <element signature="e#17160#17278#0" />
+            <element signature="e#17415#17686#0" />
+            <element signature="e#17724#19732#0" />
+            <element signature="e#17724#18261#1" />
+            <element signature="e#18349#19709#0" />
+            <element signature="e#18451#19709#0" />
+            <element signature="e#18537#19086#0" />
+            <element signature="e#18537#18595#0" />
+            <element signature="e#19379#19560#0" />
+            <element signature="e#19379#19437#0" />
+            <element signature="e#19780#20219#0" />
+            <element signature="e#19899#20169#0" />
+            <element signature="e#20035#20075#0" />
+            <element signature="e#20282#24253#0" />
+            <element signature="e#20282#20465#1" />
+            <element signature="e#20471#20518#0" />
+            <element signature="e#20579#20646#0" />
+            <element signature="e#21536#24253#0" />
+            <element signature="e#21536#21667#1" />
+            <element signature="e#21827#24253#0" />
+            <element signature="e#21891#23627#0" />
+            <element signature="e#21957#23627#0" />
+            <element signature="e#22004#22221#0" />
+            <element signature="e#22150#22221#0" />
+            <element signature="e#22326#23601#0" />
+            <element signature="e#22430#22846#0" />
+            <element signature="e#22486#22846#0" />
+            <element signature="e#22542#22622#0" />
+            <element signature="e#22932#23318#0" />
+            <element signature="e#22932#22979#0" />
+            <element signature="e#23662#24253#0" />
+            <element signature="e#23662#23721#0" />
+            <element signature="e#23823#24192#0" />
+            <element signature="e#23869#24115#0" />
+            <element signature="e#24288#24351#1" />
+            <element signature="e#24418#24559#0" />
+            <element signature="e#24593#24675#0" />
+            <element signature="e#24720#27801#0" />
+            <element signature="e#24720#24795#1" />
+            <element signature="e#24868#27801#0" />
+            <element signature="e#24868#25001#1" />
+            <element signature="e#25071#25142#0" />
+            <element signature="e#25169#25261#0" />
+            <element signature="e#25291#27801#0" />
+            <element signature="e#25355#27215#0" />
+            <element signature="e#25434#27215#0" />
+            <element signature="e#25481#25929#0" />
+            <element signature="e#25540#25618#0" />
+            <element signature="e#25677#25929#0" />
+            <element signature="e#25832#25929#0" />
+            <element signature="e#26058#27189#0" />
+            <element signature="e#26162#26573#0" />
+            <element signature="e#26218#26573#0" />
+            <element signature="e#26274#26352#0" />
+            <element signature="e#26659#26909#0" />
+            <element signature="e#27250#27801#0" />
+            <element signature="e#27275#27740#0" />
+            <element signature="e#27398#27651#0" />
+            <element signature="e#27847#29672#0" />
+            <element signature="e#27847#28212#1" />
+            <element signature="e#28332#28413#0" />
+            <element signature="e#28458#28513#0" />
+            <element signature="e#28591#29296#0" />
+            <element signature="e#28772#29228#0" />
+            <element signature="e#28944#29018#0" />
+            <element signature="e#29165#29228#0" />
+            <element signature="e#29347#29672#0" />
+            <element signature="e#29462#29511#0" />
+            <element signature="e#29613#29672#0" />
+            <element signature="e#29726#30419#0" />
+            <element signature="e#29855#30419#0" />
+            <element signature="e#29896#29994#0" />
+            <element signature="e#30144#30393#0" />
+            <element signature="e#30505#31697#0" />
+            <element signature="e#30727#31697#0" />
+            <element signature="e#31011#31179#0" />
+            <element signature="e#31013#31114#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snnipets/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bd094333-087b-4c92-a57e-4b70b068daf3/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/rest_framework/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2069">
+          <caret line="969" column="23" selection-start-line="969" selection-start-column="15" selection-end-line="969" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/django/db/models/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="384" column="9" lean-forward="true" selection-start-line="384" selection-start-column="9" selection-end-line="384" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="e#178#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/rest_framework/generics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="193" selection-start-line="193" selection-end-line="193" />
+        <state relative-caret-position="278">
+          <caret line="234" column="36" lean-forward="true" selection-start-line="234" selection-start-column="36" selection-end-line="234" selection-end-column="36" />
           <folding>
             <element signature="e#0#61#1" />
             <element signature="e#460#759#0" />
@@ -599,9 +802,7 @@
             <element signature="e#6282#6375#1" />
             <element signature="e#6479#6531#0" />
             <element signature="e#6914#6967#1" />
-            <element signature="e#7158#7320#0" />
             <element signature="e#7158#7220#1" />
-            <element signature="e#7274#7320#0" />
             <element signature="e#7412#7574#0" />
             <element signature="e#7412#7472#1" />
             <element signature="e#7529#7574#0" />
@@ -632,24 +833,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
+    <entry file="das://bd094333-087b-4c92-a57e-4b70b068daf3/database/drf_db/schema/public/table/auth_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6f9abe40-78c9-4091-950b-c17a20c5315a">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snnipets/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="203">
+          <caret line="32" column="53" lean-forward="true" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313">
+          <caret line="727" column="8" selection-start-line="727" selection-start-column="8" selection-end-line="727" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/rest_framework/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drfpart/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="e#641#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bd094333-087b-4c92-a57e-4b70b068daf3/database/drf_db/schema/public/table/snnipets_snippet">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6f9abe40-78c9-4091-950b-c17a20c5315a">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/envs/quick_start/lib/python2.7/site-packages/rest_framework/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snnipets/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/snnipets/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snnipets/models.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+          <caret column="17" lean-forward="true" selection-end-line="1" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drfpart/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="130" column="17" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/snnipets/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="128" column="61" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="61" />
+        <state relative-caret-position="528">
+          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#64#65#0" />
+          </folding>
         </state>
       </provider>
     </entry>
