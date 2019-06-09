@@ -134,15 +134,29 @@ from __future__ import unicode_literals
 #         return Response(status=status.HTTP_204_NO_CONTENT)
 
 from snnipets.models import Snippet
-from snnipets.serializers import SnippetSerializer
+from snnipets.serializers import SnippetSerializer, UserSerializer
 from rest_framework import generics
+from django.contrib.auth.models import User
 
 
 class SnippetListView(generics.ListCreateAPIView):
     queryset = Snippet.objects.all()
     serializer_class = SnippetSerializer
 
+    def perform_create(self, serializer):
+        serializer.save(owner=self.request.user)
+
+
 
 class SnippetDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Snippet.objects.all()
     serializer_class = SnippetSerializer
+
+class UserList(generics.ListAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+
+class UserDetail(generics.RetrieveAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+
